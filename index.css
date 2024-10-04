@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    margin: 40px;
+    background-color:rgb(178, 96, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-size: 10vmin;
+    color: rgb(58, 23, 74);
+    font-weight: 900;
+}
+.container{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 80px;
+    border: none;
+    border-radius: 10px;
+}
+.box{
+    width: 115px;
+    height: 115px;
+    background-color: blueviolet;
+    font-size: 3.5em;
+    color: #ffffc7;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+    box-shadow: 5px 5px 4px black;
+}
+button:active{
+    transform: scale(1.05, 1.05);
+}
+.reset-btn{
+    height: 50px;
+    width: 150px;
+}
+.reset-btn button{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    color: #ffffc7;
+    font-size: 20px;
+    outline: none;
+    box-shadow: 5px 5px 4px black;
+    transition: all 0.1s ease;
+}
+h2{
+    margin-top: 40px;
+}
+.msg-container{
+    min-height:100px;
+    min-width: 50%;
+    text-align: center;
+}
+.msg-container p{
+    font-size: 25px;
+    font-weight:600;
+    padding: 25px;
+    color: #ffffc7;
+}
+.new-btn{
+    height: 50px;
+    width: 150px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    color: #ffffc7;
+    font-size: 20px;
+    outline: none;
+    box-shadow: 5px 5px 4px black;
+    transition: all 0.1s ease;
+}
+.hide{
+    display: none;
+}
+.hide-reset{
+    display: none;
+}
+.pink-color{
+    color: #EB3678;
+}
+.orange-color{
+    color: #FB773C;
+}
